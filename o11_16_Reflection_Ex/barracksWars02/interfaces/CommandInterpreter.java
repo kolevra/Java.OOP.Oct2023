@@ -1,0 +1,6 @@
+package o11_16_Reflection_Ex.barracksWars02.interfaces;
+
+public interface CommandInterpreter {
+
+	Executable interpretCommand(String[] data, String commandName);
+}
